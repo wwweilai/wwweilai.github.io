@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 
 
-  <html class="light page-post">
+  <html class="light page-search">
 
 
 <head>
   <meta charset="utf-8">
   
-  <title>hello world | Hexo</title>
+  <title>search | Hexo</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -15,13 +15,13 @@
     <meta name="keywords" content="forsigner,前端,设计,Hexo主题,前端开发,用户体验,设计,frontend,design,nodejs,JavaScript" />
   
 
-  <meta property="og:type" content="article">
-<meta property="og:title" content="hello world">
-<meta property="og:url" content="http://example.com/2022/04/04/hello-world/index.html">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="search">
+<meta property="og:url" content="http://example.com/search/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2022-04-04T09:43:05.000Z">
-<meta property="article:modified_time" content="2022-04-04T09:43:05.524Z">
+<meta property="article:published_time" content="2022-04-04T09:11:41.182Z">
+<meta property="article:modified_time" content="2022-04-04T09:11:41.182Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 
@@ -99,8 +99,17 @@ ga('send', 'pageview');
     <span id="toolbox-mobile" class="toolbox-mobile">盒子</span>
   
 
-  <div class="post-header CENTER">
-   
+  <div class="content content-search">
+  <div class="page-header">
+
+  
+    <div class="breadcrumb">
+      <div class="location">Search</div>
+      <i class="icon-location"></i>
+    </div>
+  
+
+  
   <div class="toolbox">
     <a class="toolbox-entry" href="/">
       <span class="toolbox-entry-text">盒子</span>
@@ -146,101 +155,38 @@ ga('send', 'pageview');
   </div>
 
 
-</div>
 
-
-
-
-<div class="content content-post CENTER">
-   <article id="post-hello-world" class="article article-type-post" itemprop="blogPost">
-  <header class="article-header">
-    <h1 class="post-title">hello world</h1>
-
-    <div class="article-meta">
-      <span>
-        <i class="icon-calendar"></i>
-        <span>2022.04.04</span>
-      </span>
-
-      
-        <span class="article-author">
-          <i class="icon-user"></i>
-          <span>John Doe</span>
-        </span>
-      
-
-      
-
-
-      
-
-      
-      <i class="fa fa-eye"></i> 
-        <span id="busuanzi_container_page_pv">
-           &nbsp热度 <span id="busuanzi_value_page_pv">
-           <i class="fa fa-spinner fa-spin"></i></span>℃
-        </span>
-      
-      
-    </div>
-  </header>
-
-  <div class="article-content">
-    
-      
-    
-  </div>
-
-</article>
-
-
-   
-  <div class="text-center donation">
-    <div class="inner-donation">
-      <span class="btn-donation">支持一下</span>
-      <div class="donation-body">
-        <div class="tip text-center">扫一扫，支持forsigner</div>
-        <ul>
-        
-          <li class="item">
-            
-              <span>微信扫一扫</span>
-            
-            <img src="/images/qr-wechat.png" alt="">
-          </li>
-        
-          <li class="item">
-            
-              <span>支付宝扫一扫</span>
-            
-            <img src="/images/qr-alipay.png" alt="">
-          </li>
-        
-        </ul>
+  <div class="box-blog-info">
+    <a class="avatar" href="/">
+      <img src="/images/tou.jpg" alt="" />
+    </a>
+    <div class="info">
+      <h3 class="name" style="font-family: calligraffittiregular">
+        魏来
+      </h3>
+      <div class="slogan">
+        Find the bug of the world
       </div>
     </div>
   </div>
 
+</div>
 
-   
-  <div class="box-prev-next clearfix">
-    <a class="hide pull-left" href="/">
-        <i class="icon icon-angle-left"></i>
-    </a>
-    <a class="show pull-right" href="/2022/04/04/article/">
-        <i class="icon icon-angle-right"></i>
-    </a>
+  <div class="wrap-search-box">
+    <div class="search-box">
+      <input id="input-search"  class="input-search" type="text" placeholder="search">
+      <i class="icon-search"></i>
+    </div>
   </div>
 
-
-
+  <ul id="list-search" class="list-search">
+    
+      <li class="tip">Can you find the bug of world ~</li>
+    
+  </ul>
 
 </div>
 
-
-  <a id="backTop" class="back-top">
-    <i class="icon-angle-up"></i>
-  </a>
 
 
 
@@ -295,50 +241,6 @@ ga('send', 'pageview');
 </div>
 
 
-
-  
-      <div class="fexo-comments comments-post">
-    
-
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-
-<!-- Gitalk评论插件通用代码 -->
-<div id="gitalk-container"></div>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-<script src="//cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js"></script>
-<script>
-const gitalk = new Gitalk({
-  clientID: 'a1dfb31309a739ca772f',
-  clientSecret: '3ebee2756f17ef5245b8cd2a8de2549c73244daa',
-  repo: 'talk',
-  owner: 'wwweilai',
-  // 在这里设置一下截取前50个字符串, 这是因为 github 对 label 的长度有了要求, 如果超过
-  // 50个字符串则会报错.
-  // id: location.pathname.split('/').pop().substring(0, 49),
-  id: md5(location.pathname),
-  admin: ['wwweilai'],
-  // facebook-like distraction free mode
-  distractionFreeMode: false
-})
-gitalk.render('gitalk-container')
-</script>
-<!-- Gitalk代码结束 -->
-
-
-
-  </div>
 
   
 
